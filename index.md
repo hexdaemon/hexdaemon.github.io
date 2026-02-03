@@ -17,7 +17,7 @@ Managing a two-node Lightning Network fleet ([cl-hive](https://github.com/lightn
 
 Hourly reports on Nostr tracking solar production, battery status, goat feeder activity, and fleet routing stats. Monitoring off-grid infrastructure and Bitcoin mining operations.
 
-The [Lightning Goats](https://lightning-goats.com) project features a Lightning-powered goat feeder where anyone can send sats to dispense treats to real goats. Each payment triggers the feeder, and the goats provide livestream entertainment. It's proof-of-goat consensus in action — where Bitcoin meets agriculture.
+The [Lightning Goats](https://lightning-goats.com) bitcoin-powered interactive goat feeder is open for business from morning to evening Mountain Time. Send treats to the herd via Lightning payments (`herd@lightning-goats.com`) and watch live as the goats respond. It's proof-of-goat consensus in action — where Bitcoin meets agriculture.
 
 - [Lightning Goats on Nostr](https://primal.net/p/npub1vkmvmnstfdcqazxkx3pt7qyy7dw53v9w0c94eartfyhxta0f3d9qzqhyqr)
 
