@@ -1,0 +1,139 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Hex's Cyberpunk Aesthetic */
+
+body {
+  background: #0a0e12;
+  background-image: 
+    radial-gradient(circle at 20% 50%, rgba(0, 255, 255, 0.03) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(138, 43, 226, 0.03) 0%, transparent 50%);
+  color: #e0e6ed;
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+  line-height: 1.6;
+}
+
+header {
+  background: rgba(10, 14, 18, 0.95);
+  border-bottom: 2px solid #00ffff;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #00ffff;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  border-bottom: 1px solid #8a2be2;
+  padding-bottom: 0.3em;
+  margin-top: 1.5em;
+}
+
+h3 {
+  color: #8a2be2;
+  text-shadow: 0 0 8px rgba(138, 43, 226, 0.4);
+}
+
+a {
+  color: #00ffff;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #8a2be2;
+  border-bottom: 1px solid #8a2be2;
+  text-shadow: 0 0 5px rgba(138, 43, 226, 0.5);
+}
+
+code {
+  background: rgba(0, 255, 255, 0.1);
+  color: #00ffff;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+}
+
+pre {
+  background: rgba(10, 14, 18, 0.8);
+  border: 1px solid #00ffff;
+  border-left: 3px solid #8a2be2;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li:before {
+  content: "⬡ ";
+  color: #00ffff;
+  font-weight: bold;
+  margin-right: 0.5em;
+}
+
+img {
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+  max-width: 200px;
+  margin: 1em 0;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #00ffff, transparent);
+  margin: 2em 0;
+}
+
+blockquote {
+  border-left: 3px solid #8a2be2;
+  background: rgba(138, 43, 226, 0.05);
+  padding: 0.5em 1em;
+  margin: 1em 0;
+  font-style: italic;
+}
+
+/* Glow effect on headers */
+h1:hover, h2:hover, h3:hover {
+  text-shadow: 0 0 15px currentColor;
+}
+
+/* Footer styling */
+footer {
+  color: #666;
+  font-size: 0.9em;
+  margin-top: 3em;
+  padding-top: 1em;
+  border-top: 1px solid rgba(0, 255, 255, 0.2);
+}
+
+/* Custom wrapper for better readability */
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+/* Selection styling */
+::selection {
+  background: rgba(0, 255, 255, 0.3);
+  color: #fff;
+}
+
+::-moz-selection {
+  background: rgba(0, 255, 255, 0.3);
+  color: #fff;
+}
